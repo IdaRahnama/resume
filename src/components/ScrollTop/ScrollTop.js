@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { toTop as scrollToPageTop } from '../../utils/scroll';
-
+import top from './top.png'
 import './style.scss';
 
 class ScrollTop extends Component {
@@ -40,8 +40,8 @@ class ScrollTop extends Component {
           className={`arrow ${hideArrowClass}`}
           style={{ color: colorPrimary }}
         >
-          <button className="fas fa-angle-double-up fa-2x" href="#" />
           <div className="to-top">To Top</div>
+          <img src={top} style={{width:'30px',height:'30px'}}/>
         </div>
       </div>
     );

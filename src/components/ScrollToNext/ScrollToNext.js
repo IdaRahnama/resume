@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { toElement as scrollToElement } from '../../utils/scroll';
-
+import down from './down-arrow.png'
 import './style.scss';
 
 class ScrollToNext extends Component {
@@ -17,7 +17,7 @@ class ScrollToNext extends Component {
       <div className="scroll-to-next" onClick={(e) => this.scrollToNext()}>
         <div className="arrow bounce" style={{ color: colorPrimary }}>
           <div className="scroll-text">Click Me</div>
-          <button className="fas fa-chevron-down fa-2x" href="#" />
+          <img src={down} style={{width:'30px',height:'30px'}}/>
         </div>
       </div>
     );
