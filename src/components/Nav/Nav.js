@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { toElement as scrollToElement } from '../../utils/scroll';
+import magic from './magic-wand.png'
 
 import './style.scss';
 
@@ -57,7 +58,7 @@ class Nav extends Component {
         style={stickyStyles}
       >
         <div className="magic-wand bounce-xy" onClick={(e) => switchTheme()}>
-          <button className="fas fa-magic fa-lg" href="#" />
+          <img src={magic} style={{width:'30px',height:'30px'}}/>
           <div className="magic-text">Color Me</div>
         </div>
         <style jsx="true">
