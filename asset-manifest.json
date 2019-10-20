@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.d8a4a522.chunk.css",
+    "main.js": "/resume/static/js/main.eb72155c.chunk.js",
+    "main.js.map": "/resume/static/js/main.eb72155c.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.5fa69b1f.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.5fa69b1f.js.map",
+    "static/js/2.1c9e7a8f.chunk.js": "/resume/static/js/2.1c9e7a8f.chunk.js",
+    "static/js/2.1c9e7a8f.chunk.js.map": "/resume/static/js/2.1c9e7a8f.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.9db28db4ca58075ac5e1a377333b6bc0.js": "/resume/precache-manifest.9db28db4ca58075ac5e1a377333b6bc0.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/css/main.d8a4a522.chunk.css.map": "/resume/static/css/main.d8a4a522.chunk.css.map",
+    "static/media/GitHub.png": "/resume/static/media/GitHub.d22ee372.png",
+    "static/media/css-3.png": "/resume/static/media/css-3.b848d5d9.png",
+    "static/media/hashtag.png": "/resume/static/media/hashtag.511db6a1.png",
+    "static/media/html5.png": "/resume/static/media/html5.675307ac.png",
+    "static/media/java.png": "/resume/static/media/java.74e943d8.png",
+    "static/media/base.scss": "/resume/static/media/roboto-900.2e17a648.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fa69b1f.js",
+    "static/js/2.1c9e7a8f.chunk.js",
+    "static/css/main.d8a4a522.chunk.css",
+    "static/js/main.eb72155c.chunk.js"
+  ]
+}
