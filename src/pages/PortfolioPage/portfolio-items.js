@@ -5,6 +5,7 @@ import html from './html5.png';
 import css from './css-3.png';
 import java from './java.png';
 import hash from './hashtag.png';
+import { bold } from 'ansi-colors';
 export default [{
   name: 'typy',
   render: (
@@ -13,6 +14,8 @@ export default [{
         ReactJS
       </div>
       <div className='portfolio-item__desc'>
+      <a href="https://github.com/IdaRahnama/Javascript-weather-app"style={{fontStyle:"italic",fontWeight:"bold"}}> Web Application Development</a> 
+       
 
       </div>
       <div className='portfolio-item__icon'>
@@ -31,6 +34,7 @@ export default [{
         Django
       </div>
       <div className='portfolio-item__desc'>
+        <a href="https://github.com/IdaRahnama/Webscraping-Python"style={{fontStyle:"italic",fontWeight:"bold"}}>Web scraping</a> and <a href="https://github.com/IdaRahnama/Machine-Learning"style={{fontStyle:"italic",fontWeight:"bold"}}>Machine learning</a> 
       </div>
       <div className='portfolio-item__icon'>
         <i className="fab fa-html5"></i>
@@ -47,7 +51,8 @@ export default [{
       <div className='portfolio-item__title'>
         HTML5
       </div>
-      <div className='portfolio-item__desc'>
+      <div className='portfolio-item__desc'style={{fontStyle:"italic",fontWeight:"bold"}} >
+      Web content development and Design
       </div>
       <div className='portfolio-item__icon'>
         <i className="fab fa-react"></i>
@@ -64,7 +69,8 @@ export default [{
       <div className='portfolio-item__title'>
         CSS3
       </div>
-      <div className='portfolio-item__desc'>
+      <div className='portfolio-item__desc' style={{fontStyle:"italic",fontWeight:"bold"}}>
+        Web page Design
       </div>
       <div className='portfolio-item__icon'>
         <i className="fab fa-js"></i>
@@ -82,13 +88,15 @@ export default [{
         Java
       </div>
       <div className='portfolio-item__desc'>
+      <a href="https://github.com/IdaRahnama/JavaTestExamples"style={{fontStyle:"italic",fontWeight:"bold"}}>Sample codes</a> 
+        Back-end development
       </div>
       <div className='portfolio-item__icon'>
         <i className="fab fa-js"></i>
         <img src={java} style={{width:'60px',height:'60px'}}/>
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.testdome.com/cert/2a4e5ddd62d44f15bc03076bdc39e754">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.testdome.com/cert/2a4e5ddd62d44f15bc03076bdc39e754">Certificate</a>
         
       </div>
     </div>
@@ -101,6 +109,10 @@ export default [{
         C#
       </div>
       <div className='portfolio-item__desc'>
+     
+        
+        <a href="https://github.com/IdaRahnama/includeExlude"style={{fontStyle:"italic",fontWeight:"bold"}}>Sample codes</a> 
+          Back-end development
       </div>
       <div className='portfolio-item__icon'>
         <i className="fab fa-js"></i>

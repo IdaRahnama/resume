@@ -25,14 +25,17 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I feel passionate about <span className="highlight">Software Development</span> 
-              .
+              I have a strong passion for <span className="highlight">Software Development</span> 
+              .</p>
+            <p>I am an innovative and self-driven programmer. Equipped with a diverse and promising skill set. Experienced
+                  in various platforms and languages. Able to effectively self manage during independent projects, as
+well as collaborate as part of a productive team.
             </p>
             <p>
-            I have my masters degree in IT and my bachelor's degree in software engineering. 
+            Have my masters degree in IT and my bachelor's degree in software engineering. 
             </p>
             <p>
-            I am a full-stack developer with good knowledge in programming languages such as  <span className="highlight">Python, Java, SQL, HTML, Javascript, C# and CSS</span>.
+            A full-stack developer with good knowledge in programming languages such as  <span className="highlight">Python, Java, SQL, HTML, Javascript, C# and CSS</span>.
             </p>
             <p>
             I have experience of working with big data using Python and SQL. 
